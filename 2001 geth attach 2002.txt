@@ -1,0 +1,17 @@
+ 2001  geth attach
+ 2002  geth attach /tmp/geth.ipc
+ 2003  geth attach /tmp/geth.ipc --unlock "0xb2915cB16f3EcE15A506EB5f7cE2491A8Bffc8fc"
+ 2004  geth attach --ipcpath /tmp/geth.ipc --unlock "0xb2915cB16f3EcE15A506EB5f7cE2491A8Bffc8fc"
+ 2005  geth attach /tmp/geth.ipc --unlock "0xb2915cB16f3EcE15A506EB5f7cE2491A8Bffc8fc"
+ 2006  geth --unlock "0xb2915cB16f3EcE15A506EB5f7cE2491A8Bffc8fc"
+ 2007  geth account list
+ 2008  geth /tmp/geth.ipc account list
+ 2009  geth --ipcpath /tmp/geth.ipc account list
+ 2010  geth --ipcpath /tmp/geth.ipc account new
+ 2011  history
+
+
+
+ 2001  geth --dev --http --http.addr "0.0.0.0" --http.port "8545" --http.api "personal,eth,net,web3" --allow-insecure-unlock                                                                   
+ 2002  history
+

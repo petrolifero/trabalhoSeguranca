@@ -8,3 +8,6 @@ sudo npm install -g ganache-cli
 geth --dev --http --http.addr "0.0.0.0" --http.port "8545" --http.api "personal,eth,net,web3" --allow-insecure-unlock
 
 sudo apt install solc
+
+
+https://github.com/blockchainsllc/DAO/commit/bf8794f9885e6794eeaa33b4f0e11350ebdceb1f
