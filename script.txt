@@ -11,3 +11,6 @@ sudo apt install solc
 
 
 https://github.com/blockchainsllc/DAO/commit/bf8794f9885e6794eeaa33b4f0e11350ebdceb1f
+
+
+geth --ipcpath /tmp/geth.ipc account list
